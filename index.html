@@ -1107,52 +1107,59 @@
   <!-- ==================== TIMELINE ==================== -->
   <div class="section">
     <div class="section-label">Timeline</div>
-    <div class="section-title">12–16 Week Delivery Plan</div>
-    <div class="section-desc">Phases run in parallel. First working delivery (Phase 1) at week 6. Total duration depends on API access timing and data availability from Aerosmart.</div>
+    <div class="section-title">12-Week Delivery Plan</div>
+    <div class="section-desc">Each phase is deployed as soon as it's completed. No waiting — continuous delivery.</div>
 
     <div style="overflow-x:auto;margin:32px 0">
       <div style="min-width:800px">
-        <div class="timeline-weeks" style="margin-bottom:12px;grid-template-columns:repeat(16,1fr)">
+        <div class="timeline-weeks" style="margin-bottom:12px;grid-template-columns:repeat(12,1fr)">
           <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div>
           <div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div>
-          <div>13</div><div>14</div><div>15</div><div>16</div>
         </div>
-        <div class="timeline-phase" style="grid-template-columns:repeat(16,1fr)">
-          <div class="phase-block setup" style="grid-column:1/4"><div class="phase-label">Setup & FH2 Integration</div><div class="phase-sub">API access, test env</div></div>
+
+        <!-- Phase 1 + Deploy -->
+        <div class="timeline-phase" style="grid-template-columns:repeat(12,1fr)">
+          <div class="phase-block faz1" style="grid-column:1/5"><div class="phase-label">Phase 1 — Detection & Counting</div><div class="phase-sub">People, vehicle, boat, pet, parking</div></div>
+          <div class="phase-block deploy" style="grid-column:5/6"><div class="phase-label">Deploy</div></div>
         </div>
-        <div class="timeline-phase" style="grid-template-columns:repeat(16,1fr)">
-          <div style="grid-column:1/2"></div>
-          <div class="phase-block faz1" style="grid-column:2/7"><div class="phase-label">Phase 1 — Detection & Counting</div><div class="phase-sub">People, vehicle, boat, pet, parking</div></div>
-        </div>
-        <div class="timeline-phase" style="grid-template-columns:repeat(16,1fr)">
+
+        <!-- Phase 2 + Deploy -->
+        <div class="timeline-phase" style="grid-template-columns:repeat(12,1fr)">
           <div style="grid-column:1/4"></div>
-          <div class="phase-block faz2" style="grid-column:4/11"><div class="phase-label">Phase 2 — Zone Analysis & Anomaly</div><div class="phase-sub">Density, intrusion, anomaly, illegal structure</div></div>
+          <div class="phase-block faz2" style="grid-column:4/9"><div class="phase-label">Phase 2 — Zone Analysis & Anomaly</div><div class="phase-sub">Density, intrusion, anomaly, illegal structure</div></div>
+          <div class="phase-block deploy" style="grid-column:9/10"><div class="phase-label">Deploy</div></div>
         </div>
-        <div class="timeline-phase" style="grid-template-columns:repeat(16,1fr)">
-          <div style="grid-column:1/8"></div>
-          <div class="phase-block faz3" style="grid-column:8/15"><div class="phase-label">Phase 3 — Advanced Analytics</div><div class="phase-sub">Change detection, shoreline, coastal inspection</div></div>
+
+        <!-- Phase 3 + Deploy -->
+        <div class="timeline-phase" style="grid-template-columns:repeat(12,1fr)">
+          <div style="grid-column:1/7"></div>
+          <div class="phase-block faz3" style="grid-column:7/12"><div class="phase-label">Phase 3 — Advanced Analytics</div><div class="phase-sub">Change detection, shoreline, coastal inspection</div></div>
+          <div class="phase-block deploy" style="grid-column:12/13"><div class="phase-label">Deploy</div></div>
         </div>
-        <div class="timeline-phase" style="grid-template-columns:repeat(16,1fr)">
-          <div style="grid-column:1/14"></div>
-          <div class="phase-block deploy" style="grid-column:14/17"><div class="phase-label">Deployment</div><div class="phase-sub">2 sites</div></div>
-        </div>
-        <div class="timeline-weeks" style="margin-top:16px;grid-template-columns:repeat(16,1fr)">
-          <div></div><div></div><div></div><div></div><div></div>
-          <div style="color:var(--green);font-weight:700;font-size:10px">MVP</div>
+
+        <!-- Milestones -->
+        <div class="timeline-weeks" style="margin-top:16px;grid-template-columns:repeat(12,1fr)">
           <div></div><div></div><div></div>
-          <div style="color:var(--gold);font-weight:700;font-size:10px">P2</div>
+          <div style="color:var(--green);font-weight:700;font-size:10px">LIVE ✓</div>
           <div></div><div></div><div></div>
-          <div style="color:var(--orange);font-weight:700;font-size:10px">P3</div>
-          <div></div>
-          <div style="color:var(--purple);font-weight:700;font-size:10px">GO</div>
+          <div style="color:var(--gold);font-weight:700;font-size:10px">LIVE ✓</div>
+          <div></div><div></div><div></div>
+          <div style="color:var(--orange);font-weight:700;font-size:10px">LIVE ✓</div>
         </div>
       </div>
     </div>
 
+    <div class="highlight-box">
+      <div class="highlight-box-title">Continuous Deployment</div>
+      <p>Each phase goes live as soon as it's completed. Phase 1 algorithms start running on-site by <strong>week 4</strong>,
+        Phase 2 by <strong>week 8</strong>, Phase 3 by <strong>week 12</strong>.
+        No need to wait for the full project to finish — value is delivered incrementally.</p>
+    </div>
+
     <div class="stats-row" style="grid-template-columns:repeat(3,1fr)">
-      <div class="stat-card"><div class="stat-number" style="font-size:32px">6 Weeks</div><div class="stat-label">First Working Delivery<br>(Detection & Counting)</div></div>
-      <div class="stat-card"><div class="stat-number" style="font-size:32px">10 Weeks</div><div class="stat-label">Zone Analysis &<br>Anomaly Detection</div></div>
-      <div class="stat-card"><div class="stat-number" style="font-size:32px">12–16 W</div><div class="stat-label">Full System<br>Including Deployment</div></div>
+      <div class="stat-card"><div class="stat-number" style="font-size:32px">Week 4</div><div class="stat-label">Phase 1 Live<br>Detection & Counting</div></div>
+      <div class="stat-card"><div class="stat-number" style="font-size:32px">Week 8</div><div class="stat-label">Phase 2 Live<br>Zone & Anomaly</div></div>
+      <div class="stat-card"><div class="stat-number" style="font-size:32px">Week 12</div><div class="stat-label">Phase 3 Live<br>Full System</div></div>
     </div>
   </div>
 
