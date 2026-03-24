@@ -484,7 +484,7 @@
         <circle cx="12" cy="36" r="3" fill="#4ADE80" opacity="0.6"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="1.5s" repeatCount="indefinite"/></circle>
 
         <text x="980" y="25" fill="#D4A843" font-size="10" font-family="Inter" font-weight="700" opacity="0.6" text-anchor="end">30 FPS</text>
-        <text x="980" y="40" fill="#60A5FA" font-size="9" font-family="Inter" opacity="0.5" text-anchor="end">YOLOv8 + IOU TRACKER</text>
+        <text x="980" y="40" fill="#60A5FA" font-size="9" font-family="Inter" opacity="0.5" text-anchor="end">MULTI-OBJECT TRACKING</text>
 
         <!-- Scan line -->
         <line x1="0" y1="0" x2="1000" y2="0" stroke="#D4A843" stroke-width="1" opacity="0.3">
@@ -557,7 +557,7 @@
         <text x="280" y="302" fill="#60A5FA" font-size="9" font-family="Inter">VEHICLES: 1</text>
         <text x="410" y="302" fill="#FB923C" font-size="9" font-family="Inter">BOATS: 1</text>
         <text x="530" y="302" fill="#A855F7" font-size="9" font-family="Inter">PETS: 1</text>
-        <text x="980" y="302" fill="#D4A843" font-size="9" font-family="Inter" text-anchor="end" font-weight="600">NEXUS AI ORCHESTRATOR</text>
+        <text x="980" y="302" fill="#D4A843" font-size="9" font-family="Inter" text-anchor="end" font-weight="600">BBA AI ORCHESTRATOR</text>
       </svg>
     </div>
 
@@ -639,7 +639,7 @@
         <rect x="462" y="60" width="160" height="80" rx="10" fill="rgba(212,168,67,0.08)" stroke="#D4A843" stroke-width="2"/>
         <text x="542" y="85" text-anchor="middle" fill="#D4A843" font-size="9" font-family="Inter" font-weight="600">BBA AI SERVER</text>
         <text x="542" y="100" text-anchor="middle" fill="#ccc" font-size="11" font-family="Inter" font-weight="700">Dell T2 — Inference</text>
-        <text x="542" y="115" text-anchor="middle" fill="#4ADE80" font-size="8" font-family="Inter">YOLOv8 + NEXUS</text>
+        <text x="542" y="115" text-anchor="middle" fill="#4ADE80" font-size="8" font-family="Inter">AI DETECTION ENGINE</text>
         <text x="542" y="128" text-anchor="middle" fill="#4ADE80" font-size="8" font-family="Inter">
           <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
           PROCESSING...
@@ -722,7 +722,7 @@
         <div>
           <div class="usecase-title">People Counting</div>
           <div class="usecase-desc">Zone-based person counting, entry/exit counter, time-series reporting.</div>
-          <div class="usecase-method">YOLOv8 + IOU Tracker + Hungarian Matching</div>
+          <div class="usecase-method">Real-Time Detection + Multi-Object Tracking</div>
           <div style="margin-top:6px"><span class="status ready"><span class="status-dot"></span>Production Ready</span></div>
         </div>
       </div>
@@ -731,7 +731,7 @@
         <div>
           <div class="usecase-title">Vehicle Detection & Counting</div>
           <div class="usecase-desc">Vehicle type classification (car, motorcycle, bus, truck), density analysis.</div>
-          <div class="usecase-method">YOLOv8 + Multi-Class Filter</div>
+          <div class="usecase-method">Multi-Class Detection + Classification</div>
           <div style="margin-top:6px"><span class="status ready"><span class="status-dot"></span>Production Ready</span></div>
         </div>
       </div>
@@ -740,7 +740,7 @@
         <div>
           <div class="usecase-title">Boat Detection</div>
           <div class="usecase-desc">Coastal/harbor boat detection, classification, and counting.</div>
-          <div class="usecase-method">YOLOv8 (COCO Boat Class + Fine-tune)</div>
+          <div class="usecase-method">Object Detection + Custom Training</div>
           <div style="margin-top:6px"><span class="status ready"><span class="status-dot"></span>Production Ready</span></div>
         </div>
       </div>
@@ -749,7 +749,7 @@
         <div>
           <div class="usecase-title">Pet Detection (Restricted Zone)</div>
           <div class="usecase-desc">Pet detection in restricted areas with automatic alert generation.</div>
-          <div class="usecase-method">YOLOv8 (Cat/Dog Class + Zone Check)</div>
+          <div class="usecase-method">Animal Detection + Zone Boundary Check</div>
           <div style="margin-top:6px"><span class="status ready"><span class="status-dot"></span>Production Ready</span></div>
         </div>
       </div>
@@ -758,7 +758,7 @@
         <div>
           <div class="usecase-title">Parking Utilization & Vehicle Counting</div>
           <div class="usecase-desc">Available/occupied parking space detection, occupancy rate reporting, trend analysis. Best results with fixed overhead camera.</div>
-          <div class="usecase-method">YOLOv8 + Grid Overlay + Occupancy Map</div>
+          <div class="usecase-method">Vehicle Detection + Spatial Grid Mapping</div>
           <div style="margin-top:6px"><span class="status ready"><span class="status-dot"></span>Production Ready</span></div>
         </div>
       </div>
@@ -773,7 +773,7 @@
         <div>
           <div class="usecase-title">Zone Density Analysis</div>
           <div class="usecase-desc">Crowd density calculation in defined zones, automatic alarm on threshold breach.</div>
-          <div class="usecase-method">People Detection + Polygon Zone Mapping</div>
+          <div class="usecase-method">Detection + Zone Polygon Mapping</div>
           <div style="margin-top:6px"><span class="status partial"><span class="status-dot"></span>70% Ready</span></div>
         </div>
       </div>
@@ -782,7 +782,7 @@
         <div>
           <div class="usecase-title">Restricted Zone Intrusion</div>
           <div class="usecase-desc">Vehicle/boat/person/pet — restricted area entry detection with instant alert.</div>
-          <div class="usecase-method">Object Detection + Geofence Control</div>
+          <div class="usecase-method">Detection + Geofence Boundary Control</div>
           <div style="margin-top:6px"><span class="status partial"><span class="status-dot"></span>70% Ready</span></div>
         </div>
       </div>
@@ -791,7 +791,7 @@
         <div>
           <div class="usecase-title">General Anomaly / Incident Detection</div>
           <div class="usecase-desc">Unusual movement/object detection with confidence-based prioritization.</div>
-          <div class="usecase-method">MOG2 Motion Analysis + Baseline Comparison</div>
+          <div class="usecase-method">Motion Analysis + Baseline Comparison</div>
           <div style="margin-top:6px"><span class="status partial"><span class="status-dot"></span>60% Ready</span></div>
         </div>
       </div>
@@ -800,7 +800,7 @@
         <div>
           <div class="usecase-title">Illegal Temporary Structure Detection</div>
           <div class="usecase-desc">New/unauthorized structure or object detection against reference images.</div>
-          <div class="usecase-method">Periodic Image Comparison + New Object Detection</div>
+          <div class="usecase-method">Periodic Image Comparison + Change Detection</div>
           <div style="margin-top:6px"><span class="status partial"><span class="status-dot"></span>Depends on Change Detection</span></div>
         </div>
       </div>
@@ -853,7 +853,7 @@
 
         <!-- Legend -->
         <rect x="20" y="160" width="200" height="30" rx="4" fill="#0a0a12" opacity="0.8"/>
-        <text x="30" y="180" fill="#999" font-size="8" font-family="Inter">Segmentation: U-Net / SAM | Temporal delta tracking</text>
+        <text x="30" y="180" fill="#999" font-size="8" font-family="Inter">Segmentation + Temporal Delta Tracking</text>
       </svg>
     </div>
 
@@ -863,7 +863,7 @@
         <div>
           <div class="usecase-title">Change Detection (Digital Twin)</div>
           <div class="usecase-desc">Comparison of periodic flight images against reference, generating change maps.</div>
-          <div class="usecase-method">Feature Matching + SSIM + Deep Learning</div>
+          <div class="usecase-method">Deep Learning Image Comparison</div>
           <div style="margin-top:6px"><span class="status partial"><span class="status-dot"></span>Development Required</span></div>
         </div>
       </div>
@@ -872,7 +872,7 @@
         <div>
           <div class="usecase-title">Shoreline Tracking</div>
           <div class="usecase-desc">Water/land boundary identification, temporal change tracking, erosion/accretion detection.</div>
-          <div class="usecase-method">Semantic Segmentation (U-Net / SAM)</div>
+          <div class="usecase-method">Semantic Segmentation + Temporal Analysis</div>
           <div style="margin-top:6px"><span class="status partial"><span class="status-dot"></span>Development Required</span></div>
         </div>
       </div>
@@ -881,7 +881,7 @@
         <div>
           <div class="usecase-title">Coastal Project Inspection</div>
           <div class="usecase-desc">Visual change detection on coastal structures. General anomaly level — not engineering-grade analysis.</div>
-          <div class="usecase-method">Anomaly Detection + Baseline Comparison</div>
+          <div class="usecase-method">Visual Anomaly Detection + Baseline Comparison</div>
           <div style="margin-top:6px"><span class="status partial"><span class="status-dot"></span>Limited Scope — See Below</span></div>
         </div>
       </div>
@@ -890,7 +890,7 @@
         <div>
           <div class="usecase-title">Aerial Asset Monitoring</div>
           <div class="usecase-desc">Aerial asset overview, periodic status checks, and change tracking.</div>
-          <div class="usecase-method">Object Detection + Change Detection Pipeline</div>
+          <div class="usecase-method">Detection + Periodic Change Tracking</div>
           <div style="margin-top:6px"><span class="status partial"><span class="status-dot"></span>Depends on Change Detection</span></div>
         </div>
       </div>
@@ -1060,38 +1060,38 @@
     <div class="tech-grid">
       <div class="tech-card">
         <div class="tech-card-title">Object Detection</div>
-        <div class="tech-card-tech">YOLOv8s — 80+ COCO Classes</div>
-        <div class="tech-card-desc">Person, vehicle, boat, pet and 76 other object classes. Extensible with custom training.</div>
+        <div class="tech-card-tech">80+ Object Classes</div>
+        <div class="tech-card-desc">Person, vehicle, boat, pet and 76 other object classes. Extensible with custom training for domain-specific targets.</div>
         <div style="margin-top:8px"><span class="status ready"><span class="status-dot"></span>Production Ready</span></div>
       </div>
       <div class="tech-card">
         <div class="tech-card-title">Multi-Object Tracking</div>
-        <div class="tech-card-tech">IOU Tracker + Hungarian Algorithm</div>
-        <div class="tech-card-desc">ByteTrack-style dual matching, velocity estimation, persistent ID. Tested with 5 simultaneous drones.</div>
+        <div class="tech-card-tech">Persistent ID Tracking</div>
+        <div class="tech-card-desc">Multi-object tracking with persistent identity assignment, velocity estimation. Tested with 5 simultaneous drones.</div>
         <div style="margin-top:8px"><span class="status ready"><span class="status-dot"></span>Production Ready</span></div>
       </div>
       <div class="tech-card">
         <div class="tech-card-title">Motion Analysis</div>
-        <div class="tech-card-tech">MOG2 + Optical Flow</div>
-        <div class="tech-card-desc">Background subtraction, adjustable sensitivity, shadow detection, morphological filtering.</div>
+        <div class="tech-card-tech">Advanced Motion Detection</div>
+        <div class="tech-card-desc">Background subtraction, adjustable sensitivity, shadow detection, anomaly scoring.</div>
         <div style="margin-top:8px"><span class="status ready"><span class="status-dot"></span>Production Ready</span></div>
       </div>
       <div class="tech-card">
         <div class="tech-card-title">AI Orchestration</div>
-        <div class="tech-card-tech">NEXUS Event System</div>
-        <div class="tech-card-desc">Severity routing (INFO/WARNING/CRITICAL), false positive filtering, automation modes.</div>
+        <div class="tech-card-tech">Intelligent Event System</div>
+        <div class="tech-card-desc">Severity-based alert routing (INFO/WARNING/CRITICAL), false positive filtering, automation modes.</div>
         <div style="margin-top:8px"><span class="status ready"><span class="status-dot"></span>Production Ready</span></div>
       </div>
       <div class="tech-card">
         <div class="tech-card-title">Video Input</div>
-        <div class="tech-card-tech">RTSP, RTMP, UDP, H.264 RTP</div>
-        <div class="tech-card-desc">All common video protocols. Drone stream, IP camera, recorded video.</div>
+        <div class="tech-card-tech">All Standard Protocols</div>
+        <div class="tech-card-desc">RTSP, RTMP, UDP, H.264 — drone streams, IP cameras, recorded video.</div>
         <div style="margin-top:8px"><span class="status ready"><span class="status-dot"></span>Production Ready</span></div>
       </div>
       <div class="tech-card">
-        <div class="tech-card-title">VLM Integration</div>
-        <div class="tech-card-tech">Gemini Multimodal AI</div>
-        <div class="tech-card-desc">Natural language search ("find red vehicle"), image + text analysis, spatial reasoning.</div>
+        <div class="tech-card-title">AI Vision Search</div>
+        <div class="tech-card-tech">Multimodal AI</div>
+        <div class="tech-card-desc">Natural language search ("find red vehicle"), image + text analysis, spatial reasoning on live video.</div>
         <div style="margin-top:8px"><span class="status ready"><span class="status-dot"></span>Production Ready</span></div>
       </div>
     </div>
